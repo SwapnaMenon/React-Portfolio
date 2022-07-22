@@ -2,11 +2,6 @@ import React from "react";
 import { capitalizeFirstLetter } from "../../utils/helpers";
 
 function Nav() {
-  const  categories = [
-    { name: 'projects', description: '' },
-    { name: 'links', description: '' }
-  ];
-
   const handleClick = () => {
     console.log("click handled")
   }
@@ -21,19 +16,21 @@ function Nav() {
             </a>
           </li>
           <li className= "mx-2">
-            <span onClick={() => handleClick()}>
+            <a href="#contact" onClick={() => handleClick()}>
               Contact Me
-            </span>
+            </a>
           </li>
-          {
-            categories.map((category) => (
-              <li className="mx-1" key={category.name} >
-                <span onClick={() => { handleClick(); }}>
-                 {capitalizeFirstLetter(category.name)}
-                </span>
-              </li>
-            ))
-          }
+          <li className= "mx-2">
+            <a href="#projects" onClick={() => handleClick()}>
+              Projects
+            </a>
+          </li>
+          <li className= "mx-2">
+            <a href="#links" onClick={() => handleClick()}>
+              Links
+            </a>
+          </li>
+
         </ul>
       </nav>
     </header>
