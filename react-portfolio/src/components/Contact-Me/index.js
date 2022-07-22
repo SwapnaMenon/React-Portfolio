@@ -1,8 +1,42 @@
 import React, { useState } from "react";
 
-const [formState, setFormState] = useState({name:'', email:'', contactnumber:'', message:''});
-<input type="email" name="email" defaultValue={formState.name} />
-const { name, email, contactnumber, message } = formState;
+
+
+function ContactForm() {
+    const [formState, setFormState] = useState({ name: '', email: '',contactnumber:'', message: '' });
+    const { name, email, message } = formState;
+
+    return (
+        <section>
+          <h1 data-testid="h1tag">Connect!</h1>
+          <form id="contact-form" >
+            <div>
+              <label htmlFor="name">Name:</label>
+              <input type="text" name="name" defaultValue={name}  />
+            </div>
+            <div>
+              <label htmlFor="email">Email address:</label>
+              <input type="email" name="email" defaultValue={email}  />
+            </div>
+            <div>
+              <label htmlFor="phone">Enter your contact number:</label>
+              <input type="phone"  />
+            </div>
+            <div>
+              <label htmlFor="message">Message:</label>
+              <textarea name="message" rows="5" defaultValue={message}  />
+            </div>
+            <button data-testid="button" type="submit">Submit</button>
+          </form>
+        </section>
+    );
+  };
+
+  
+
+export default ContactForm;
+
+    
 
 
 

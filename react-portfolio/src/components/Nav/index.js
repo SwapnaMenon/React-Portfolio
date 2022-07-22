@@ -16,13 +16,13 @@ function Nav() {
             </a>
           </li>
           <li className= "mx-2">
-            <a href="#contact" onClick={() => handleClick()}>
-              Contact Me
+            <a href="#projects" onClick={() => handleClick()}>
+              Projects
             </a>
           </li>
           <li className= "mx-2">
-            <a href="#projects" onClick={() => handleClick()}>
-              Projects
+            <a href="#Contact-Me" onClick={() => handleClick()}>
+              Contact Me
             </a>
           </li>
         </ul>
