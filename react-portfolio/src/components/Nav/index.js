@@ -25,12 +25,6 @@ function Nav() {
               Projects
             </a>
           </li>
-          <li className= "mx-2">
-            <a href="#links" onClick={() => handleClick()}>
-              Links
-            </a>
-          </li>
-
         </ul>
       </nav>
     </header>
