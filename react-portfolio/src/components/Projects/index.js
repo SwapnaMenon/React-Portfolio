@@ -5,23 +5,23 @@ const Projects () => {
     return (
         <div className="container" id="repo">
             <div className="row justify-description-center">
-            {/* Project 1 */}
-                <div className="col-xs-12 col-sm-12 col-lg-4 mb-4">
-                            <h3>Project: Foston Pizza</h3>
+            {}
+                <div className="col-xs-12 col-sm-10 col-lg-4 mb-5">
+                            <h2>Project: Foston Pizza</h2>
                             <div className="screenshot">
                                 <img src={`${process.env.PUBLIC_URL}../public/images/foston-pizza`} 
                                 className="d-flex align-self-center"
-                                    alt="foston pizza" />
+                                    alt="foston pizza"/>
                             </div>
-                            <div className="card-body mb-5 pl-0">
+                            <div className="card-body mb-3 pl-0">
                                 <p className="card-text">
                                 </p>
-                                <div className="url w-100 position-absolute">
+                                <div className="url w-90 position-absolute">
                                     <a href="https://github.com/project0204/reimagined-system" target="_blank" className="btn" rel="noreferrer">
-                                        <i className="fab fa-githubrepo"></i>
+                                        <i className="githubrepo"></i>
                                     </a>
                                     <a href="https://reimagined-system.herokuapp.com/" target="_blank" className="btn mr-2" rel="noreferrer">
-                                        <i className="fas fa-deployedlink"></i>
+                                        <i className="deployedlink"></i>
                                     </a>
                                 </div>
                             </div>

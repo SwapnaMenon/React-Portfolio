@@ -1,7 +1,5 @@
 import React, { useState } from "react";
 
-
-
 function ContactForm() {
     const [formState, setFormState] = useState({ name: '', email: '',contactnumber:'', message: '' });
     const { name, email, message } = formState;
@@ -20,13 +18,13 @@ function ContactForm() {
             </div>
             <div>
               <label htmlFor="phone">Enter your contact number:</label>
-              <input type="phone"  />
+              <input type="phone"/>
             </div>
             <div>
               <label htmlFor="message">Message:</label>
-              <textarea name="message" rows="5" defaultValue={message}  />
+              <textarea name="message" rows="7" defaultValue={message}  />
             </div>
-            <button data-testid="button" type="submit">Submit</button>
+            <button data-testid="button" type="submit">Click to Submit</button>
           </form>
         </section>
     );
