@@ -3,9 +3,7 @@ import { capitalizeFirstLetter } from "../../utils/helpers";
 
 function Nav() {
   const  categories = [
-    { name: 'about me', description: '' },
     { name: 'projects', description: '' },
-    { name: 'contact', description: '' },
     { name: 'links', description: '' }
   ];
 
@@ -19,12 +17,12 @@ function Nav() {
         <ul className="flex-row">
           <li className="mx-2">
             <a href="#about" onClick={() => handleClick()}>
-              About me
+              Introduction
             </a>
           </li>
-          <li className={"mx-2"}>
+          <li className= "mx-2">
             <span onClick={() => handleClick()}>
-              Contact
+              Contact Me
             </span>
           </li>
           {
