@@ -8,11 +8,17 @@ SO THAT I can assess whether they're a good candidate for an open position
 
 
 # Screenshot 
+![demo]()
 
 
 
 # Instructions 
+- via terminal type npm run develop or npm start to initiate the react app
 
 
 
 # Links 
+- GitHub repo:
+
+- Deployed link:
+
