@@ -1,11 +1,11 @@
 import React from 'react';
 import Projects from "../Projects";
 
-const Projects () => {
+const Projects = () => {
     return (
         <div className="container" id="repo">
             <div className="row justify-description-center">
-            {}
+           
                 <div className="col-xs-12 col-sm-10 col-lg-4 mb-5">
                             <h2>Project: Foston Pizza</h2>
                             <div className="screenshot">
