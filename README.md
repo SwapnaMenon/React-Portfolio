@@ -18,7 +18,8 @@ SO THAT I can assess whether they're a good candidate for an open position
 
 
 # Links 
-- GitHub repo:
+- GitHub repo: https://github.com/SwapnaMenon/React-Portfolio
 
-- Deployed link:
+- Deployed link: https://swapna-react-portfolio.herokuapp.com/
+
 
